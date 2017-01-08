@@ -20,6 +20,10 @@
 module.exports = function(grunt) {
   grunt.registerTask('build', [
     'compileAssets',
+    'concat',
+    'uglify',
+    'cssmin',
+    'copy:fonts',
     'linkAssetsBuild',
     'clean:build',
     'copy:build'

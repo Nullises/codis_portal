@@ -21,9 +21,12 @@ module.exports = function(grunt) {
     'concat',
     'uglify',
     'cssmin',
-    'linkAssetsBuildProd',
-    'clean:build',
-    'copy:build'
+    'copy:fonts',
+    'sails-linker:prodJs',
+    'sails-linker:prodStyles',
+    'sails-linker:devTpl',
+    'sails-linker:prodJsJade',
+    'sails-linker:prodStylesJade',
+    'sails-linker:devTplJade'
   ]);
 };
-
