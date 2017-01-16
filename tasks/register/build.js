@@ -28,5 +28,11 @@ module.exports = function(grunt) {
     'clean:build',
     'copy:build'
   ]);
-  grunt.registerTask('heroku:production', ['jshint', 'csslint', 'cssmin', 'uglify']);
+  grunt.registerTask('heroku:production', ['jshint', 'csslint', 'cssmin', 'uglify', 'compileAssets',
+    'concat',
+    'cssmin',
+    'copy:fonts',
+    'linkAssetsBuild',
+    'clean:build',
+    'copy:build']);
 };
