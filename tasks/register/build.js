@@ -21,7 +21,7 @@ module.exports = function(grunt) {
   grunt.registerTask('build', [
     'compileAssets',
     'concat',
-    //'uglify',
+    'uglify',
     'cssmin',
     'copy:fonts',
     'linkAssetsBuild',
