@@ -28,4 +28,5 @@ module.exports = function(grunt) {
     'clean:build',
     'copy:build'
   ]);
+  grunt.registerTask('heroku:production', ['jshint', 'csslint', 'cssmin', 'uglify']);
 };
