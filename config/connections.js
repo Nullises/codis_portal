@@ -81,7 +81,7 @@ module.exports.connections = {
      user: 'postgres' || 'pqtodgrscsabrd',
      password: '123456uv' || '9b686e6f285092ef7ea1b46f712a255a8c21efcbf3c617a2726fa000e4dc6bcc',
      database: 'codis_portal' || 'd43omdv87kqeqj'
-   }
+   },
   //PRODUCTION
    remotePostgresql: {
      adapter: 'sails-postgresql',
