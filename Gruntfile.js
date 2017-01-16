@@ -79,7 +79,5 @@ module.exports = function(grunt) {
   invokeConfigFn(taskConfigurations);
   invokeConfigFn(registerDefinitions);
 
-  //HEROKU
-  grunt.registerTask('heroku:production', ['jshint', 'csslint', 'cssmin', 'uglify']);
 
 };
