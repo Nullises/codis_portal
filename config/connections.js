@@ -75,13 +75,13 @@ module.exports.connections = {
   *                                                                          *
   ***************************************************************************/
     //LOCAL
-   postgresql: {
+   /*postgresql: {
      adapter: 'sails-postgresql',
-     host: '127.0.0.1' || 'ec2-54-225-104-61.compute-1.amazonaws.com',
-     user: 'postgres' || 'pqtodgrscsabrd',
-     password: '123456uv' || '9b686e6f285092ef7ea1b46f712a255a8c21efcbf3c617a2726fa000e4dc6bcc',
-     database: 'codis_portal' || 'd43omdv87kqeqj'
-   },
+     host: '127.0.0.1',
+     user: 'postgres',
+     password: '123456uv',
+     database: 'codis_portal'
+   }*/
   //PRODUCTION
    remotePostgresql: {
      adapter: 'sails-postgresql',
